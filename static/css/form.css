@@ -1,0 +1,102 @@
+html{
+    height: 100vh;
+    background:linear-gradient(to right bottom, rgb(134, 223, 221) 0%, rgb(9, 101, 223) 100%);
+}
+
+/**********************MOBILE FIRST***********************/
+p{
+    color:#fff;
+    font-family: 'Sen', sans-serif;
+    display:block;
+    margin-bottom:1vh;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:14px;
+}
+
+select:focus {
+    outline: none;
+    }
+
+input:focus{
+    outline: none;
+}
+
+.citySelection{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16vh;
+    height: 60vh;
+    border-radius: 10px;
+    background: #FFFFFF00;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.citySelection input[type="submit"]
+{
+    margin-top:0vh;
+    margin-bottom: 0vh;
+    background-color:#333333;
+    height: 40px;
+    width: 84px;
+    box-shadow: 2vw 2vw 2vw 0vw #00000036;
+    color: #fff;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    border-radius: 40px;
+    border-width: 2px;
+}
+
+#language{
+padding:8px 32px 8px 10px;
+margin-bottom:0vh;
+width: 50%;
+}
+
+select{
+    border-width: 0px;
+    font-size:16px;
+    padding:8px 32px 8px 10px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 3vh;
+    box-shadow: 2vw 2vw 2vw 0vw #00000036;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    width: 77%;
+    background: url('../img/caretdown.png') no-repeat right #fff;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background-position: calc(100% - 16px);
+    background-size: 16px 9px;
+
+}
+
+/**********************DESKTOP**************************/
+@media only screen and (min-width:480px){
+    select{
+        box-shadow: 6px 6px 8px 0px #00000036;
+    }
+
+    .citySelection{
+        background: #FFFFFF22;
+        width: 400px;
+    }
+
+    .citySelection input[type="submit"]{
+        box-shadow: 6px 6px 8px 0px #00000036;
+    }
+
+}
+
+
