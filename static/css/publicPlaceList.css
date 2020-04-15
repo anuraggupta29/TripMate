@@ -115,7 +115,7 @@ html{
 
   }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (orientation: landscape) {
 
 	.navBar{
 		position: relative;
@@ -189,7 +189,7 @@ html{
 }
 
 /************************DESKTOP VIEW******************************/
-@media only screen and (min-width: 640px) {
+@media only screen and (orientation: landscape) {
 
 	.containerBox{
 		padding-bottom: 2vw;

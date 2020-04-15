@@ -115,7 +115,7 @@ html{
 
   }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (orientation: landscape) {
 
 	.navBar{
 		position: relative;
@@ -198,7 +198,7 @@ select{
 	width: 18vh;
 	height: 4vh;
 	border: solid #ddd;
-	border-width: 1px;
+	border-width: 0.1vh;
 	border-radius: 2vh;
 	padding: 0vh 0vh 0vh 1vh;
 	margin-top: auto;
@@ -220,7 +220,7 @@ select{
 	font-family: 'Montserrat', sans-serif;
 	color: #333333;
 	font-size: 3vw;
-	border-bottom: 1.5px solid;
+	border-bottom: 0.2vh solid;
 	border-color: #EEE;
 }
 
@@ -281,7 +281,7 @@ select{
 
 .borderline{
 	height: 80%;
-	width: 1px;
+	width: 0.2vh;
 	background-color: #DDD;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -310,7 +310,7 @@ select{
 
 
 /************************DESKTOP VIEW******************************/
-@media only screen and (min-width: 640px) {
+@media only screen and (orientation: landscape) {
 
 	.containerBox{
 		margin-top: 6vh;
@@ -392,7 +392,7 @@ select{
 		font-size: 2vh;
 		width: 20vh;
 		height: 4vh;
-		border-width: 1.5px;
+		border-width: 0.2vh;
 		border-radius: 2vh;
 		padding: 0vh 0vh 0vh 1.6vh;
 		background-position: calc(100% - 1.6vh);

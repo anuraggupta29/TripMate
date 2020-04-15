@@ -44,7 +44,7 @@ categoryElements.forEach(function(current,index){
 
 
 /***************NAVBAR*********************/
-var mediaWidth = window.matchMedia("(min-width: 640px)")
+var mediaWidth = window.matchMedia("(orientation: landscape)")
 
 function openNav() {
   if (mediaWidth.matches) {

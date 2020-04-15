@@ -115,7 +115,7 @@ html{
 
   }
 
-@media only screen and (min-width: 640px) {
+  @media only screen and (orientation: landscape) {
 
 	.navBar{
 		position: relative;
@@ -229,6 +229,14 @@ html{
 	color: #333333;
 }
 
+.opentime{
+	font-size: 2.4vh;
+}
+
+.closetime{
+	font-size: 2.4vh;
+}
+
 .timeBlock{
 	height: 100%;
 	width: auto;
@@ -278,7 +286,7 @@ html{
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	color: #333333;
-	border-bottom: 1.5px solid;
+	border-bottom: 0.2vh solid;
 	border-color: #EEE;
 }
 
@@ -338,7 +346,7 @@ html{
 
 .borderline{
 	height: 80%;
-	width: 1px;
+	width: 0.2vh;
 	background-color: #DDD;
 	margin-top: auto;
 	margin-bottom: auto;
@@ -405,7 +413,7 @@ html{
 }
 
 /************************DESKTOP VIEW*****************************/
-@media only screen and (min-width: 640px) {
+@media only screen and (orientation: landscape) {
 
 	.containerBox{
 		margin-top: 6vh;
@@ -442,6 +450,14 @@ html{
 
 	.timeBlock{
 		font-size: 2vw;
+	}
+
+	.opentime{
+		font-size: 3.2vh;
+	}
+	
+	.closetime{
+		font-size: 3.2vh;
 	}
 
 	.categoryDescription{
