@@ -4,6 +4,7 @@ Travel Companion Web Application
 -multilingual support incomplete
 
 This is only the frontend of the website.
+view at : tripmate.imfast.io
 work on the backend is still underway.
 
 This website is supposed to provide a simple interface to a user and recommend him/her the best place to go
