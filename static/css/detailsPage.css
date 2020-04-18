@@ -15,6 +15,10 @@ html{
 	background-attachment: fixed;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /**********ALL NAVBAR CSS**************************************/
 
 .navBar{
@@ -272,9 +276,8 @@ html{
 }
 
 .descriptionText{
-	font-size: 1.8vh;
+	font-size: 2vh;
 	text-align: left;
-	text-align: justify;
 	padding-right:2vw;
 	margin-bottom: auto;
 }

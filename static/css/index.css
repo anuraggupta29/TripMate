@@ -16,6 +16,10 @@ html{
     font-family: 'Baloo 2', cursive;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /*MOBILE VIEW FIRST*/
 
 .logoIcon{

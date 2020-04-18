@@ -15,6 +15,10 @@ html{
 	background-attachment: fixed;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
 /**********ALL NAVBAR CSS**************************************/
 
 .navBar{

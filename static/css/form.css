@@ -20,11 +20,19 @@ body{
 	overflow: hidden;
 }
 
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:focus {
+    outline: none;
+}
+
 /**********ALL NAVBAR CSS**************************************/
 
 .navBar{
 	height: 12vh;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(255,255,255,0);
 	box-shadow: 0vw 0vw 2vw 0vw #00000030;
 	position: absolute;
 	top: 0vh;
@@ -220,14 +228,14 @@ select{
 	.containerBox{
 		padding-top: 6vh;
 		padding-bottom: 6vh;
+		border-radius: 1.5vh;
 		margin-top: 6vh;
 		width: 440px;
 		margin-left: auto;
 		margin-right: auto;
-		height: 76vh;
+		height: 72vh;
 		overflow-y: scroll;
-		border-radius: 0.5vw;
-		box-shadow: 0vw 0vw 1.5vw 0vw #00000010;
+		box-shadow: 0vw 0vw 2vw 0vw #00000010;
 	}
 
 	.citySelection{
