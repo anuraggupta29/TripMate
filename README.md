@@ -1,11 +1,11 @@
 # TripMate
-Travel Companion Web Application
--The project is incomplete
--multilingual support incomplete
+<h4>A Travel Companion Web Application</h4>
 
-1. This is only the frontend of the website.
-2. view at : tripmate.imfast.io
-3. work on the backend is still underway.
+<ul>
+  <li>This is only the frontend of the website.</li>
+  <li>View at : tripmate.imfast.io</li>
+  <li>Work on the backend is still underway.</li>
+  </ul>
 
 This website is supposed to provide a simple interface to a user and recommend him/her the best place to go
 based on the distance of the place and current crowd at that location. The crowd data is supposed to be acquired
